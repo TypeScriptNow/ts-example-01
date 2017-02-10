@@ -8,7 +8,7 @@ class Greeter {
     constructor(element: HTMLElement) {
         this.element = element;
         this.element.innerHTML += "The time is: ";
-        this.span = document.createElement('span');
+        this.span = document.createElement("span");
         this.element.appendChild(this.span);
         this.span.innerText = new Date().toUTCString();
     }
@@ -24,7 +24,7 @@ class Greeter {
 }
 
 window.onload = () => {
-    var el = document.getElementById('content');
+    var el = document.getElementById("content");
     var greeter = new Greeter(el);
     greeter.start();
 };
