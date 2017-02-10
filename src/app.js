@@ -1,3 +1,4 @@
+/// <reference path="Scripts/typings/jquery/jquery.d.ts" />
 var Greeter = (function () {
     function Greeter(element) {
         this.element = element;
